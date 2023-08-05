@@ -10,7 +10,7 @@ void sayDigit(int n, int arr[10]){
     cout << "digit" << arr[];
 
     //functon calling 
-    sayDigit(n, arr());
+    sayDigit(n, arr);
 
 }
 
@@ -23,7 +23,7 @@ int main(){
   cout<<endl;
 
   // calling the function
-  sayDigit(n, arr[10]);
+  sayDigit(n, arr);
 
   return 0;
 
