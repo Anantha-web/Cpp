@@ -9,16 +9,23 @@ void sayDigit(int n, int arr[10]){
     n = n/10;
     cout << "digit" << arr[];
 
+    //functon calling 
+    sayDigit(n, arr());
+
 }
 
 int main(){
-  int n = 2;
-  int arr[10] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"}
+  int n;
+  cin >> n;
+  cout<<endl<<endl<<endl;
+  string arr[10] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"}
 
   cout<<endl;
 
   // calling the function
   sayDigit(n, arr[10]);
+
+  return 0;
 
 }
   
