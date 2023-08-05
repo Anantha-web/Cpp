@@ -6,6 +6,7 @@ void sayDigit(int n, int arr[10]){
     if(n ==0)
         return 0;  
     int digit = n % 10;
+    n = n/10;
     cout << "digit" << arr[];
 
 }
